@@ -18,7 +18,7 @@ Multi-paradigm: we can use different styles of programming
 JS是用来干什么的
 
 **JS**(v. programming language: allow interation/ build web app) + **HTML**(n. content) + **CSS**(adj. presentation) 组成网页
-![html_css_js](01_Fundamentals/img/html.png)
+![html_css_js](https://github.com/ThneedLynn/complete_js/blob/master/01_Fundamentals/img/html.png)
 
 ### JS almost can do anything
 Dynamic effects and web applications in the browser
