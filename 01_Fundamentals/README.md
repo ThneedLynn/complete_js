@@ -18,7 +18,7 @@ Multi-paradigm: we can use different styles of programming
 JS是用来干什么的
 
 **JS**(v. programming language: allow interation/ build web app) + **HTML**(n. content) + **CSS**(adj. presentation) 组成网页
-![html_css_js](https://github.com/ThneedLynn/complete_js/blob/master/01_Fundamentals/img/html.png)
+![html_css_js](https://github.com/ThneedLynn/complete_js/blob/master/img/html.png)
 
 ### JS almost can do anything
 Dynamic effects and web applications in the browser
@@ -41,3 +41,10 @@ Modern JS libraries and frameworks: React, Angular, Vue
 - ES6 是对js有重大更新的
 - ... --> ES5 --> ES6 (2015) --> ... --> ES11 (2020)
 
+
+### Browser console
+
+Just an environment built to execute small pieces of code, and show result immediately.
+
+### Inline JS vs External JS
+- Easy to separate the content with JS
