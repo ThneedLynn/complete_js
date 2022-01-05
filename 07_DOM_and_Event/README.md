@@ -41,3 +41,6 @@ document.querySelector('body').style.backgroundColor = 'green';
 // 增加div的宽度
 document.querySelector('.number').style.width = '30rem';
 ```
+
+### Project 1: guess a number 
+<img width="806" alt="Screen Shot 2022-01-04 at 10 54 42 PM" src="https://user-images.githubusercontent.com/42024653/148173792-e0aab641-2288-4d61-9d1e-126f3b151c98.png">
