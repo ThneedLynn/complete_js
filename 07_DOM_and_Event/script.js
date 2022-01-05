@@ -39,26 +39,18 @@ document.querySelector('.check').addEventListener('click', function(){
             document.querySelector('.highscore').textContent = highScore;
         }
 
-        // 2. when guess too high!
-    } else if (guessNum > secretNumber) {
+        // 2. when guess is wrong!
+    } else {
         if (score > 0) {
-            document.querySelector('p.message').textContent = 'Guess too high!'
+            document.querySelector('p.message').textContent = guessNum > secretNumber ? 'Guess too high!' : 'Guess too low!';
             score -= 1;
             document.querySelector('.score').textContent = score;
         } else {
-            document.querySelector('p.message').textContent = 'Lose the game! '
+            document.querySelector('p.message').textContent = 'Lose the game! ';
         }
-        // 3. when guess too low!
-    } else if (guessNum < secretNumber) {
-        if (score > 0) {
-            document.querySelector('p.message').textContent = 'Guess too low!'
-            score -= 1;
-            document.querySelector('.score').textContent = score;
-        } else {
-            document.querySelector('p.message').textContent = 'Lose the game! '
-        }
-    }
-});
+    } 
+    
+   });
 
 // 点击重置游戏
 document.querySelector('.again').addEventListener('click', function(){
