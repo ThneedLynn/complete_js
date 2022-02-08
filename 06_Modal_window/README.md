@@ -1,5 +1,11 @@
 # Modal window
 
+<img width="1158" alt="Screen Shot 2022-02-07 at 10 57 41 PM" src="https://user-images.githubusercontent.com/42024653/152934546-9e7fdb66-3d7b-4636-8bbd-f780b9c0869a.png">
+
+
+<img width="1162" alt="Screen Shot 2022-02-07 at 10 57 49 PM" src="https://user-images.githubusercontent.com/42024653/152934627-df963775-468d-42b1-9928-79caab4dfe06.png">
+
+
 ### querySelectorAll
 ```js
 const btnsOpenModal = document.querySelectorAll('.show-modal');
@@ -54,3 +60,4 @@ document.addEventListener('keydown', function(event){
     }
 });
 ```
+
